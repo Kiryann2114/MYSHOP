@@ -2,31 +2,38 @@
 
 .body{
     margin: 0;
+    position: relative;
     font-family: 'Roboto', sans-serif;
-    background: #2c0b0e;
+    background: white;
     display: flex;
     justify-content: center;
 }
+.layer{
+    height: 1700px;
+    width: 100%;
+    position: absolute;
+    transform: translate3d(0,calc(var(--scrollTop) / 5),0);
+}
 .main{
     width: 1090px;
+    position: relative;
 }
 .header{
     top: 0;
     position: sticky;
     padding-top: 45px;
-    background: #0a3622;
+    background: white;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
 .content{
-    background: #664d03;
     padding-top: 50px;
     padding-left: 60px;
     padding-right: 60px;
     height: 2000px;
 }
 .footer{
-    background: #6f42c1;
+    background: white;
     font-size: 12px;
     text-align: center;
     font-weight: 600;
