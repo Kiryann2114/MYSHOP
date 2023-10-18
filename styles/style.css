@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #2c0b0e;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 1090px;
+}
+.header{
+    top: 0;
+    position: sticky;
+    padding-top: 45px;
+    background: #0a3622;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.content{
+    background: #664d03;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 2000px;
+}
+.footer{
+    background: #6f42c1;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 550;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.navigate{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_item{
+    font-size: 18px;
+    display: flex;
+    padding: 0 35px;
+}
+.korz{
+    grid-column-start: 10;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/*адаптация*/
+@media all and (min-width: 1280px) {
+
+}
+@media all and (max-width: 1280px) {
+
+}
+@media all and (max-width: 1024px) {
+
+}
+@media all and (max-width: 768px) {
+
+}
