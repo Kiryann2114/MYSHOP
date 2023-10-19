@@ -1,0 +1,38 @@
+{
+  "tov1": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  },
+  "tov2": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  },
+  "tov3": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  },
+  "tov4": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  },
+  "tov5": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  },
+  "tov6": {
+    "name": "Пластиковый стул",
+    "opisanie": "Описание: Какое-то описание свойств товара",
+    "zena": "7800₽",
+    "images": ["DATA/images/tov1/1.png","DATA/images/tov1/2.png","DATA/images/tov1/3.png"]
+  }
+}

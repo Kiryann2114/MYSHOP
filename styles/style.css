@@ -26,13 +26,14 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.content{
+.page{
     padding-top: 50px;
     padding-left: 60px;
     padding-right: 60px;
-
+    height: 1750px;
     display: flex;
-    justify-content: center;
+    align-content: center;
+
     flex-direction: column;
 }
 .footer{
@@ -139,6 +140,27 @@
 }
 .btn_buy:hover{
     background: #A6A6A6;
+}
+.num {
+    display: none;
+}
+.paginator {
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.paginator > span {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.paginator_active {
+    background: #A6A6A6;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 /*адаптация*/

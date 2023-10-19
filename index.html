@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
     <link type="Image/x-icon" href="/image/fav.ico" rel="icon">
+    <script src="skripts/Loading.js" defer></script>
+    <script src="skripts/pagination.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous" defer></script>
     <script src="skripts/app.js" defer></script>
     <title>MYSHOP | Каталог</title>
@@ -26,17 +28,75 @@
                 </div>
             </div>
         </header >
-        <div class="content">
-            <div class="tov_item">
-                <div class="im_tov"></div>
-                <div class="name_tov">Пластиковый стул</div>
-                <div class="use_el">
-                    <div class="kol"></div>
-                    <div class="zena">7800₽</div>
-                    <div class="btn_buy">Добавить в корзину</div>
+        <div class="page">
+            <div data-num=1 class="num">
+                <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov" id="name_tov1">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena" id="zena1">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+                <div data-num=2 class="num">
+                    <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+            <div data-num=3 class="num">
+                <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+            <div data-num=4 class="num">
+                <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+            <div data-num=5 class="num">
+                <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
+                </div>
+            </div>
+            <div data-num=6 class="num">
+                <div class="tov_item">
+                    <div class="im_tov"></div>
+                    <div class="name_tov">Пластиковый стул</div>
+                    <div class="use_el">
+                        <div class="kol"></div>
+                        <div class="zena">7800₽</div>
+                        <div class="btn_buy">Добавить в корзину</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="paginator" onclick="pagination(event)"></div>
         <footer class="footer">
             <div>© 2023 MYSHOP - All rights reserved.</div>
         </footer>
