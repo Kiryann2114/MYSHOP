@@ -25,6 +25,8 @@
     background: white;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .page{
     padding-top: 50px;
@@ -33,7 +35,6 @@
     height: 1750px;
     display: flex;
     align-content: center;
-
     flex-direction: column;
 }
 .footer{
@@ -104,6 +105,7 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    margin-left: 15px;
 }
 .use_el{
     grid-column-start: 3;

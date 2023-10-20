@@ -1,4 +1,4 @@
-var count = 6; //всего записей
+var count = document.getElementsByClassName('tov_item').length; //всего записей
 var cnt = 5; //сколько отображаем сначала
 var cnt_page = Math.ceil(count / cnt); //кол-во страниц
 
