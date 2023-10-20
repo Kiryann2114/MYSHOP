@@ -8,7 +8,8 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     },
     {
         "name": "Пластиковый стул",
@@ -19,7 +20,8 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     },
     {
         "name": "Пластиковый стул",
@@ -30,7 +32,8 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     },
     {
         "name": "Пластиковый стул",
@@ -41,7 +44,8 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     },
     {
         "name": "Пластиковый стул",
@@ -52,7 +56,8 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     },
     {
         "name": "Пластиковый стул",
@@ -63,6 +68,7 @@ let data = `[
             "image/tov1/2.svg",
             "image/tov1/3.svg"
         ],
-        "inkorz": false
+        "inkorz": false,
+        "kol": 1
     }
 ]`;
