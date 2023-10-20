@@ -41,6 +41,15 @@
     align-content: center;
     flex-direction: column;
 }
+.content_tov{
+    padding-top: 37px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 80vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
 .items{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -99,7 +108,16 @@
     background: #E4E4E4;
     border-radius: 15px;
     margin-bottom: 20px;
-    height: 335px;
+    height: inherit;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.tovar_cart{
+    background: #E4E4E4;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: inherit;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -225,6 +243,31 @@
     border-radius: 10px;
     margin-right: 5px;
     margin-left: 5px;
+}
+.use_sl{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.next_slide{
+    background: #C3C3C3;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.next_slide:hover{
+    background: #A6A6A6;
+}
+.back_slide{
+    background: #C3C3C3;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.back_slide:hover{
+    background: #A6A6A6;
 }
 
 /*адаптация*/

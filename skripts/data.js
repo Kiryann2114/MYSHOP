@@ -4,9 +4,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1
@@ -16,9 +16,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1
@@ -28,9 +28,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1
@@ -40,9 +40,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1
@@ -52,9 +52,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1
@@ -64,9 +64,9 @@ let data = `[
         "opisanie": "Описание: Какое-то описание свойств товара",
         "zena": 7800,
         "images": [
-            "image/tov1/1.svg",
-            "image/tov1/2.svg",
-            "image/tov1/3.svg"
+            "../image/tov1/1.svg",
+            "../image/tov1/2.svg",
+            "../image/tov1/3.svg"
         ],
         "inkorz": false,
         "kol": 1

@@ -5,11 +5,11 @@ window.addEventListener('load', e =>{
     }
     localStorage.setItem("data",JSON.stringify(database));
 
-    for(let i=0; i<document.getElementsByClassName('tov_item').length; i=i+1){
+    for(let i=0; i<document.getElementsByClassName('name_tov').length; i=i+1){
         document.getElementsByClassName('name_tov').item(i).textContent = database[i].name;
         document.getElementsByClassName('zena').item(i).textContent = database[i].zena.toString()+"₽";
         document.getElementsByClassName('kolich').item(i).textContent = database[i].kol;
-        document.getElementsByClassName('im_tov').item(i).src = database[i].images[1];
+        document.getElementsByClassName('im_tov').item(i).src = database[i].images[0];
         if(!database[i].inkorz){
             document.getElementsByClassName('btn_buy').item(i).textContent = "Добавить в корзину";
             document.getElementsByClassName('kol').item(i).style = "display:block"
