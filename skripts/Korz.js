@@ -25,6 +25,9 @@ function Update(database){
             document.getElementsByClassName('kol').item(i).style = "display:block"
         }
         document.getElementsByClassName('name_tov').item(i).textContent = database[i].name;
+        document.getElementsByClassName('name_tov').item(i).onclick = function (){
+            location.href="../"+database[i].SRC;
+        }
         document.getElementsByClassName('zena').item(i).textContent = database[i].zena.toString()+"₽";
         document.getElementsByClassName('kolich').item(i).textContent = database[i].kol;
         document.getElementsByClassName('btn_pl').item(i).onclick = function (){

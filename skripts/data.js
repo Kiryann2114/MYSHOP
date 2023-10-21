@@ -8,6 +8,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     },
@@ -20,6 +21,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     },
@@ -32,6 +34,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     },
@@ -44,6 +47,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     },
@@ -56,6 +60,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     },
@@ -68,6 +73,7 @@ let data = `[
             "../image/tov1/2.svg",
             "../image/tov1/3.svg"
         ],
+        "SRC": "html/Tovar0.html",
         "inkorz": false,
         "kol": 1
     }

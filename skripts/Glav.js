@@ -7,6 +7,9 @@ window.addEventListener('load', e =>{
 
     for(let i=0; i<document.getElementsByClassName('name_tov').length; i=i+1){
         document.getElementsByClassName('name_tov').item(i).textContent = database[i].name;
+        document.getElementsByClassName('name_tov').item(i).onclick = function (){
+            location.href=database[i].SRC;
+        }
         document.getElementsByClassName('zena').item(i).textContent = database[i].zena.toString()+"₽";
         document.getElementsByClassName('kolich').item(i).textContent = database[i].kol;
         document.getElementsByClassName('im_tov').item(i).src = database[i].images[0];
