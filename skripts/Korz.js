@@ -21,14 +21,15 @@ function Update(database){
         }
         else{
             vsego = vsego + database[i].zena * database[i].kol;
-            document.getElementsByClassName('korz_item').item(i).style = "display:block"
-            document.getElementsByClassName('kol').item(i).style = "display:block"
+            document.getElementsByClassName('korz_item').item(i).style = "display:grid"
+            document.getElementsByClassName('kol_korz').item(i).style = "display:block"
         }
         document.getElementsByClassName('name_tov').item(i).textContent = database[i].name;
         document.getElementsByClassName('name_tov').item(i).onclick = function (){
             location.href="../"+database[i].SRC;
         }
-        document.getElementsByClassName('zena').item(i).textContent = database[i].zena.toString()+"₽";
+        document.getElementsByClassName('im_tov').item(i).src = database[i].images[0];
+        document.getElementsByClassName('zena_korz').item(i).textContent = database[i].zena.toString()+"₽";
         document.getElementsByClassName('kolich').item(i).textContent = database[i].kol;
         document.getElementsByClassName('btn_pl').item(i).onclick = function (){
             if(database[i].inkorz){
