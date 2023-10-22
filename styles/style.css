@@ -32,14 +32,15 @@
     top: 60vh;
     right: 1vh;
     position: fixed;
-    background: #8a8a8a;
+    background: #afaeae;
     border-radius: 15px;
     width: 250px;
     height: 310px;
 }
 .inp{
+    font-size: 16px;
     position: absolute;
-    background: #8a8a8a;
+    background: #afaeae;
     border-width: 1px 0px 0px 0px;
     border-color: black;
     border-bottom-right-radius: 15px;
@@ -48,6 +49,42 @@
     height: 30px;
     left: 0px;
     bottom: 0px;
+}
+.vopros{
+    background: black;
+    border-radius: 6px;
+    color: white;
+    width: fit-content;
+    max-width: 200px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.otvet{
+    background: #E3E3E3;
+    border-radius: 6px;
+    width: fit-content;
+    max-width: 200px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-left: 10px;
+}
+.send{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+}
+.send:hover{
+    background: #585858;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
 }
 .header{
     top: 0;

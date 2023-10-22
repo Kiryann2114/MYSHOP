@@ -1,4 +1,5 @@
 window.addEventListener('load', e =>{
+    let database_chat = JSON.parse(data_chat);
     let database = JSON.parse(data);
     if(localStorage.getItem("data")){
         database = JSON.parse(localStorage.getItem("data"));
@@ -45,4 +46,22 @@ window.addEventListener('load', e =>{
             localStorage.setItem("data",JSON.stringify(database));
         };
     }
+    document.getElementsByClassName('send').item(0).onclick = function (){
+        if(document.getElementsByClassName('inp').item(0).value !== ""){
+            document.getElementsByClassName('vopros').item(0).textContent = document.getElementsByClassName('inp').item(0).value;
+            document.getElementsByClassName('vopros').item(0).style = "display:block";
+            for(let i=0;i<database_chat.length;i=i+1){
+                if(document.getElementsByClassName('vopros').item(0).textContent.toLowerCase().replace(/[\s.,%?!]/g, '') === database_chat[i].vopros){
+                    document.getElementsByClassName('otvet').item(0).textContent = database_chat[i].otvet;
+                    document.getElementsByClassName('otvet').item(0).style = "display:block";
+                    break;
+                }
+                else {
+                    document.getElementsByClassName('otvet').item(0).textContent = "Извините, но в моей базе данных нет ответа на данный вопрос";
+                    document.getElementsByClassName('otvet').item(0).style = "display:block";
+                }
+            }
+        }
+    };
+
 });

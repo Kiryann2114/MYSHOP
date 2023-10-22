@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
     <link type="Image/x-icon" href="/image/fav.ico" rel="icon">
-    <script src="skripts/data.js" defer></script>
-    <script src="skripts/Glav.js" defer></script>
-    <script src="skripts/pagination.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/data_chat.js" defer></script>
+    <script src="scripts/Glav.js" defer></script>
+    <script src="scripts/pagination.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous" defer></script>
-    <script src="skripts/app.js" defer></script>
+    <script src="scripts/app.js" defer></script>
     <title>MYSHOP | Каталог</title>
 </head>
 <body class="body">
     <div class="layer" style="background-image: url(image/fon.png);"></div>
     <div class="main">
-        <div class="chat_bot">
+        <div class="chat_bot" onclick="document.getElementsByClassName('chat').item(0).style = 'display:block'; document.getElementsByClassName('chat_bot').item(0).style = 'display:none'">
             <img src="image/Chat.svg" alt="Корзина" width="40px" height="30px">
         </div>
-        <div class="chat">
-            <img src="image/Chat.svg" alt="Корзина" width="40px" height="30px" style="padding-left: 210px; padding-top: 3px">
-            <input class="inp">
+        <div class="chat" style="display: none">
+            <img src="image/Chat.svg" alt="Корзина" width="40px" height="30px" style="padding-left: 210px; padding-top: 3px" class="btn_chat" onclick="document.getElementsByClassName('chat_bot').item(0).style = 'display:block'; document.getElementsByClassName('chat').item(0).style = 'display:none'">
+            <div class="cont_vopr" style="display: flex; justify-content: right;">
+                <div class="vopros" style="display: none">123fsdfgsdfsd fsfsfdgsed uvysdbvis udvosiupv boayibo vybsp;v iubpvubas opvisbovpi fbpviudfh bvpdui fvhpdf suvhdp;f</div>
+            </div>
+            <div class="cont_otv">
+                <div class="otvet" style="display: none">123</div>
+            </div>
+            <input type="text" class="inp">
+            <div class="send">
+                <img src="image/send.svg" alt="Отправить" width="25px" height="25px" style="padding-left: 3px; padding-top: 3px">
+            </div>
         </div>
         <header class="header">
             <div class="name" onclick="location.href='index.html'">MYSHOP</div>
