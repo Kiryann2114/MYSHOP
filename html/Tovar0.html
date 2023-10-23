@@ -26,25 +26,39 @@
             <div class="nav_item" onclick="location.href='Kontakts.html'">Контакты</div>
             <div class="nav_item" onclick="location.href='Help.html'">Помощь</div>
         </div>
-        <div class="korz">
+        <div class="cont_btn">
             <div class="btn_korz"  onclick="location.href='Korzina.html'">
                 <img src="../image/Shop.svg" alt="Карзина" width="40px" height="30px">
             </div>
+            <div class="btn_burger" onclick="document.getElementsByClassName('burger').item(0).style = 'display:grid'; document.getElementsByClassName('btn_burger').item(0).style = 'display:none'">
+                <img src="../image/burger.svg" alt="Корзина" width="40px" height="30px">
+            </div>
         </div>
     </header >
+    <div class="burger" style="display: none">
+        <div class="btn_burger_cont">
+            <div class="btn_burger" onclick="document.getElementsByClassName('btn_burger').item(0).style = 'display:grid'; document.getElementsByClassName('burger').item(0).style = 'display:none'">
+                <img src="../image/burger.svg" alt="Корзина" width="40px" height="30px">
+            </div>
+        </div>
+        <div class="nav_item" onclick="location.href='../index.html'">Каталог</div>
+        <div class="nav_item" onclick="location.href='Onas.html'">О нас</div>
+        <div class="nav_item" onclick="location.href='Kontakts.html'">Контакты</div>
+        <div class="nav_item" onclick="location.href='Help.html'">Помощь</div>
+    </div>
     <div class="content_tov">
         <div class="tovar_cart">
             <div class="slider">
-                <img src="" alt="" class="im_tov">
+                <img src="" alt="" class="im_tov_tov">
                 <div class="use_sl">
                     <div class="next_slide"><</div>
                     <div class="back_slide">></div>
                 </div>
             </div>
-            <div class="name_tov"></div>
+            <div class="name_tov_tov"></div>
             <div class="op_tov"></div>
             <div class="use_el_tov">
-                <div class="kol">
+                <div class="kol_tov">
                     <div>Кол-во:</div>
                     <div class="cont_kol">
                         <div class="btn_mn">-</div>
@@ -52,8 +66,8 @@
                         <div class="btn_pl">+</div>
                     </div>
                 </div>
-                <div class="zena"></div>
-                <div class="btn_buy"></div>
+                <div class="zena_tov"></div>
+                <div class="btn_buy_tov"></div>
             </div>
         </div>
     </div>

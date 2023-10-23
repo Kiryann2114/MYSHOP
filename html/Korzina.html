@@ -20,12 +20,26 @@
             <div class="nav_item" onclick="location.href='Kontakts.html'">Контакты</div>
             <div class="nav_item" onclick="location.href='Help.html'">Помощь</div>
         </div>
-        <div class="korz">
+        <div class="cont_btn">
             <div class="btn_korz"  onclick="location.href='Korzina.html'">
                 <img src="../image/Shop.svg" alt="Карзина" width="40px" height="30px">
             </div>
+            <div class="btn_burger" onclick="document.getElementsByClassName('burger').item(0).style = 'display:grid'; document.getElementsByClassName('btn_burger').item(0).style = 'display:none'">
+                <img src="../image/burger.svg" alt="Корзина" width="40px" height="30px">
+            </div>
         </div>
     </header >
+    <div class="burger" style="display: none">
+        <div class="btn_burger_cont">
+            <div class="btn_burger" onclick="document.getElementsByClassName('btn_burger').item(0).style = 'display:grid'; document.getElementsByClassName('burger').item(0).style = 'display:none'">
+                <img src="../image/burger.svg" alt="Корзина" width="40px" height="30px">
+            </div>
+        </div>
+        <div class="nav_item" onclick="location.href='../index.html'">Каталог</div>
+        <div class="nav_item" onclick="location.href='Onas.html'">О нас</div>
+        <div class="nav_item" onclick="location.href='Kontakts.html'">Контакты</div>
+        <div class="nav_item" onclick="location.href='Help.html'">Помощь</div>
+    </div>
     <div class="content_korz">
         <div class="items">
             <div class="korz_item" style = "display:none">
@@ -121,8 +135,8 @@
         </div>
         <div class="el_upr">
             <div class="Vsego">Всего:</div>
-            <div class="btn_buy" style="height: 60px" id="buy">Оформить заказ</div>
-            <div class="btn_buy" style="height: 60px" id="clear">Очистить корзину</div>
+            <div class="btn_buy_clear" style="height: 60px" id="buy">Оформить заказ</div>
+            <div class="btn_buy_clear" style="height: 60px" id="clear">Очистить корзину</div>
         </div>
     </div>
     <footer class="footer">
