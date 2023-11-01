@@ -11,10 +11,12 @@
 д)анимацию или параллакс;  
 е)имитация чат-бота;  
 ж)фавикон:  
-з)2-3 элемента для визуальных эффектов по выбору;  
+з)2-3 элемента для визуальных эффектов по выбору;
+3. разрешается использовать только HTML,CSS,JS
+4. запрещены любые фрэймворки и api
 
 ### Figma
 https://www.figma.com/file/zj81KXxBir8mESH7AQFIh0/MYSHOP?type=design&node-id=0%3A1&mode=design&t=JWuUWR4yXJajAK5T-1
 
 ### For view
-https://myshop-ctnem21oe-kirills-projects-5e84c3cf.vercel.app
+https://myshop-f0vr5cdje-kirills-projects-5e84c3cf.vercel.app/
