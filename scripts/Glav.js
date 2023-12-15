@@ -30,7 +30,7 @@ window.addEventListener('load', e =>{
                 localStorage.setItem("data",JSON.stringify(database));
             }
             else{
-                location.href='html/Korzina.html';
+                location.href='../html/Korzina.html';
             }
         };
         document.getElementsByClassName('btn_pl').item(i).onclick = function (){
