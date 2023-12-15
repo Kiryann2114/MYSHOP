@@ -10,7 +10,8 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 1
     },
     {
         "name": "Пластиковый стул",
@@ -23,7 +24,8 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 2
     },
     {
         "name": "Пластиковый стул",
@@ -36,7 +38,8 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 3
     },
     {
         "name": "Пластиковый стул",
@@ -49,7 +52,8 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 4
     },
     {
         "name": "Пластиковый стул",
@@ -62,7 +66,8 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 5
     },
     {
         "name": "Пластиковый стул",
@@ -75,6 +80,7 @@ let data = `[
         ],
         "SRC": "html/Tovar0.html",
         "inkorz": false,
-        "kol": 1
+        "kol": 1,
+        "id": 6
     }
 ]`;
